@@ -1,0 +1,25 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar-icons{
+    width: 120px;
+    height: 100vh;
+    background-color: #262626;
+    padding: 5px;
+}
+
+.navbar-icons a{
+    display: block;
+    text-align: center;
+    padding: 15px;
+    color: white;
+    font-size: 30px;
+    border-radius: 20px;
+    margin-bottom: 20px;
+}
+.navbar-icons a:hover{
+    background-color: #6622CC;
+}
