@@ -1,0 +1,26 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.menu-icon{
+    display: inline-block;
+    cursor: pointer;
+    padding: 10px;
+}
+.menu-bar1, .menu-bar2, .menu-bar3{
+    width: 35px;
+    height: 5px;
+    margin: 5px;
+    background-color: black;
+    border-radius: 1000px;
+    transition: 0.2s ease;
+}
+
+.change .menu-bar1{
+    transform: translate(10px, 0px);
+}
+.change .menu-bar3{
+    transform: translate(-10px, 0px);
+}
